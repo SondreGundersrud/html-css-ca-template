@@ -1,0 +1,129 @@
+/* Contact page */
+.support {
+    background-image: url('../images/contact.jpg');
+    background-size: cover;
+    background-position: top;
+    padding: 200px 20px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .support h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #00554b
+  }
+  
+  .contact-form {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .contact-form fieldset {
+    border: none;
+  }
+  
+  .form__input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  textarea.form__input {
+    height: 120px;
+    width: 100%;
+    resize: none; 
+    overflow-y: auto; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  
+  header {
+    max-height: 10rem;
+    min-width: 90rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+  }
+  
+  .logo {
+    height: auto;
+    width: 250px;
+    max-width: 50%;
+    background-position-x: left;
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: 0A3641;
+    text-decoration: none;
+  }
+  
+  a {
+    color: var(--color-primary);
+  }
+  
+  .active {
+  text-decoration: underline;
+  }
+  
+  .cta {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+  }
+  
+  footer { 
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    text-align: center;
+  }
+  
+  footer nav a {
+    color: var(--color-secondary);
+    text-decoration: none;
+  }
+  
+  .cta-footer {
+    color: var(--color-secondary)
+  }
+  
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: medium;
+  }

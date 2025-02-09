@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Rainydays, contact page">
+        <meta name="description" content="Rainydays, Xtreme Weather Jacket">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css\styles.css">
-        <link rel="stylesheet" href="css\contact.css">
+        <link rel="stylesheet" href="../css/styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <title>RainyDays | Contact</title>
+        <title>RainyDays | Xtreme Weather Jacket</title>
     </head>
     <body>
         <header class="header">
-            <img src="assets/RainyDays_Logo.png" alt="RainyDays Logo" class="logo" />
+            <img src="../assets/RainyDays_Logo.png" alt="RainyDays Logo" class="logo"/>
             <nav class="nav">
                 <form class="search-form">
-                    <input type="text" placeholder="Search a product" class="search-input" />
+                    <input type="text" placeholder="Search a product" class="search-input"/>
                     <button type="submit" class="search-button">
                         <i class="fas fa-search"></i>
                     </button>
                 </form>
                 <ul class="nav-links">
-                    <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
-                    <li><a href="products.html"><i class="fas fa-tshirt"></i> Products</a></li>
-                    <li><a href="about.html"><i class="fas fa-users"></i> About Us</a></li>
-                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
-                    <li><a href="profile.html"><i class="fas fa-user"></i></a></li>
-                    <li><a href="checkout.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="../index.html"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="../products.html"><i class="fas fa-tshirt"></i> Products</a></li>
+                    <li><a href="../about.html"><i class="fas fa-users"></i> About Us</a></li>
+                    <li><a href="../contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                    <li><a href="../profile.html"><i class="fas fa-user"></i></a></li>
+                    <li><a href="../checkout.html"><i class="fas fa-shopping-cart"></i></a></li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <section class="support">
-                <h1><p>Need help?</p> <p>Contact customer support</p> in the form down below.</h1>
-                <form class="contact-form">
-                    <fieldset>
-                        <label for="name">Type your name here</label>
-                        <input type="text" name="name" id="name" class="form__input" placeholder="Type your name here" required>
-                        <label for="email">Type your email address here</label>
-                        <input type="email" name="email" id="email" class="form__input" placeholder="Type your email address here" required>
-                        <label for="message">Type your message here</label>
-                        <textarea name="message" id="message" class="form__input" placeholder="Type your message here..." required></textarea>
-                        <button type="submit" class="submit-button">Submit</button>
-                    </fieldset>
-                </form>
-            </section>
+        <main class="product">
+            <img src="../images/Xtreme Weather Jacket.jpg" alt="Xtreme Weather Jacket">
+            <div>
+                <h1>Xtreme Weather Jacket</h1>
+                <p>Xtreme Weather Jacket is perfect for unpredictable conditions. Its lightweight, water-resistant fabric provides comfort and protection from the elements. With elastic cuffs and a waistband, this jacket is designed for a snug fit, ensuring warmth and wind protection during outdoor activities.</p>
+                <label for="size">Choose a size:</label>
+                    <select name="size" id="size">
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                        <option value="xlarge">X-Large</option>
+                        <option value="xxlarge">XX-Large</option>
+                    </select>
+                <button class="cta"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+            </div>
         </main>
         <footer class="footer">
             <div class="footer-content">
@@ -57,11 +56,11 @@
                 <section class="footer-section">
                     <h4>Rainydays</h4>
                     <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="checkout.html">Shopping Cart</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Customer Support</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../checkout.html">Shopping Cart</a></li>
+                        <li><a href="../products.html">Products</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../contact.html">Customer Support</a></li>
                     </ul>
                 </section>
                 <section class="footer-section">

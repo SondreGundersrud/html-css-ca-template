@@ -8,12 +8,279 @@
 body {
   color: var(--color-primary);
   background-color: var(--color-secondary);
+  font-family: "Bebas Neue", "Roboto", sans-serif, Verdana, Tahoma;
+  margin: 0;
+  padding: 0;
 }
 
-.centered {
+header {
   display: flex;
-  justify-content: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #dbe5e8;
+}
+
+.logo {
+  height: 60px;
+  max-width: 200px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 20px;
+  color: #0a3641;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.nav-links i {
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #093642;
+  color: #ffffff;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px; 
+  padding: 10px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px; 
+  font-size: 18px;
+  text-align: left; 
+}
+
+
+.footer-logo {
+  height: 100px;
+  margin-bottom: 10px;
+  filter: invert(100%) brightness(150%);
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  padding-left: 20px; 
+  text-indent: -20px; 
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #00aaff;
+}
+
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.newsletter-form button {
+  padding: 10px;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #007bff;
+}
+
+.footer-bottom {
   text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 20px;
+}
+
+.footer-socials {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-socials li {
+  margin: 8px 0;
+}
+
+.footer-socials a {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-socials a i {
+  font-size: 16px;
+}
+
+.footer-socials a:hover {
+  color: #00aaff;
+}
+
+/*About us page*/
+.about-us {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.about-us section {
+  padding: 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.about-us section:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.about-us section h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.about-us section h1 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.about-us section p {
+  flex: 1;
+  text-align: justify;
+  width: 45%;
+}
+
+.about-us section img {
+  width: 45%;
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+.product {
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  gap: 30px;
+}
+
+.product img {
+  width: 45%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.product p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.jackets {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  column-gap: 1x; 
+  row-gap: 1px;    
+  padding: 0;
+}
+
+.jackets a {
+  display: block;
+  text-align: center;
+  margin: 0; 
+}
+
+.jackets img {
+  width: 60%;
+  max-width: 60%; 
+  transition: transform 0.3s ease;
 }

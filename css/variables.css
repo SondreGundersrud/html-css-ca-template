@@ -2,6 +2,21 @@
 /* This could be colors, fonts, or padding sizes! */
 
 :root {
-  --color-primary: #000000;
-  --color-secondary: #789789
+  --color-primary: #0A3641;
+  --color-secondary: #fff
 }
+
+header {
+  background-color: rgba(10, 50, 65, 0.2);
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("fonts/bebasneue.woff2") format("woff2"),
+  url("fonts/bebasneue.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  }
+
+/* 0A3641 20% opacity for background color on header */
+/* 0A3641 100% fill color */

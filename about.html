@@ -1,33 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta name="description" content="Rainydays about us page">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>RainyDays | About</title>
-</head>
-<body>
-    <header> <!-- Logo, search bar, products, about us, contact us, profile icon, shopping cart icon-->
-        <img src="#" alt="RainyDays Logo" />
-        <nav>
-            <ul>
-                <li><a href=index.html">Home</a></li>
-                <li><a href=products.html">Products</a></li>
-                <li><a href=contact.html">Contact</a></li>
-                <li><a href=about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main> <!-- Welcome section w/pic, 50% off sale, jackets, test-->
-        <section> Test test </section>
-    </main>
-    <footer>
-        <section>
-            <div>
-                <p>Newsletter</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Rainydays, contact page">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <title>RainyDays | About Us</title>
+    </head>
+    <body>
+        <header class="header">
+            <img src="assets/RainyDays_Logo.png" alt="RainyDays Logo" class="logo" />
+            <nav class="nav">
+                <form class="search-form">
+                    <input type="text" placeholder="Search a product" class="search-input" />
+                    <button type="submit" class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <ul class="nav-links">
+                    <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="products.html"><i class="fas fa-tshirt"></i> Products</a></li>
+                    <li><a href="about.html"><i class="fas fa-users"></i> About Us</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                    <li><a href="profile.html"><i class="fas fa-user"></i></a></li>
+                    <li><a href="checkout.html"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="about-us">
+            <h1>Our Story</h1>
+            <section>
+                <div>
+                    <h2>From the Norwegian Wilderness</h2>
+                    <p>Founded in 1994, Rainydays was created from a deep appreciation for the beauty of the Norwegian fjords, mountains and coastline. The unpredictable weather, ranging from bright sunny days, sudden downpours and harsh winters, inspired our founders to create high-quality outdoor gear that empowers adventurers to conquer nature, no matter the conditions. Our mission is simple: to provide the ultimate protection so you can embrace the wild, regardless of what Mother Nature has in store.</p>
+                </div>
+                <img src="images/canoe.jpg" alt="A woman paddeling in a small boat in a lake, wearing a black jacket from RainyDays.">
+            </section>
+            <section>
+                <div>
+                    <h2>Inspiring Outdoor Enthusiasts</h2>
+                    <p>At Rainydays, we are passionate about inspiring any adult to step outside their comfort zones and explore the great outdoors. We believe that quality gear is essential for those who seek adventure. Our thoughtfully designed jackets and apparel encourage both men and women to put on their gear and fully immerse themselves in nature’s wonders, whether it’s a challenging hike or a leisurely stroll through the forest.</p>
+                </div>
+                <img src="images/trekking.jpg" alt="Two adults walking up the path to the foot of a mountain">
+            </section>
+            <section>
+                <div>
+                    <h2>Building Connections</h2>
+                    <p>More than just a brand, Rainydays strives to create a community. We want to share our love for the outdoors with our customers and create a society. By engaging with our customers through our products at the physical or digital store as well as our social medias, we aim to create bonds that last. When you wear Rainydays gear, you’re not just wearing a jacket; you’re joining a family of adventurers who value the experiences shared in nature, whether skiing down the snow-capped mountains with your adventures friends or simply enjoying a camping trip with your loved ones.</p>
+                </div>
+                <img src="images/snowboard.jpg" alt="Two adults at the top of a slope, talking together wearing snowboard gear">
+            </section>
+            <section>
+                <div>
+                    <h2>Embrace Your Journey</h2>
+                    <p>As you step into the world wearing Rainydays, we invite you to embrace your journey. Our mission is to empower you to explore new horizons and create unforgettable memories in the great outdoors. With every jacket we craft, we aim to ensure that you feel confident, comfortable, and ready for whatever adventure awaits. Join us, and let’s explore the beauty of nature together!</p>
+                </div>
+                <img src="images/Girl_blue_jacket.jpg" alt="Backshot of a woman wearing a blue jacket from Rainydays, looking out at the snow capped mountain range">
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-content">
+                <section class="footer-section">
+                    <a href="../index.html"><img src="../assets/RainyDays_Logo.png" alt="Rainydays Logo" class="footer-logo" /></a>
+                    <p>Pushing the Comfort Zone</p>
+                </section>
+                <section class="footer-section">
+                    <h4>Rainydays</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="checkout.html">Shopping Cart</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Customer Support</a></li>
+                    </ul>
+                </section>
+                <section class="footer-section">
+                    <p><h4>Our Socials</h4></p>
+                    <ul class="footer-socials">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    </ul>
+                </section>
+                <section class="footer-section">
+                    <h4>Join our newsletter</h4>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email address here" required />
+                        <button type="submit">Submit</button>
+                    </form>
+                </section>
             </div>
-        </section>
-    </footer>
-</body>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rainydays. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </body>
 </html>
